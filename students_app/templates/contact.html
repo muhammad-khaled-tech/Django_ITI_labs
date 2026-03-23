@@ -1,0 +1,26 @@
+{% extends 'base.html' %} {% block content %}
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <h2 class="text-center mb-4">Contact ITI School</h2>
+      <form>
+        <div class="mb-3">
+          <label class="form-label">Email Address</label>
+          <input
+            type="email"
+            class="form-control"
+            placeholder="name@example.com"
+          />
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Your Message</label>
+          <textarea class="form-control" rows="3"></textarea>
+        </div>
+        <button type="button" class="btn btn-primary w-100">
+          Send (Coming Soon)
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}
